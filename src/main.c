@@ -13,7 +13,7 @@ int main() {
 
     PRINTF_S("%s", "Linear State Transition Press 'n' for next state\n");
 
-    /* instantiate the ToastOven HSM and trigger the initial transition */
+    
     States_ctor();
     QHSM_INIT(states, (void *)0, 0U);
 
